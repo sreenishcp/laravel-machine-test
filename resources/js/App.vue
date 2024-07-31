@@ -42,7 +42,6 @@ import axios from 'axios';
 
 const searchQuery = ref('');
 const users = ref([])
-const message = ref('Hello from Vue 3 with Composition API!');
 const cancelTokenSource = ref('');
 
 // cancelTokenSource.value = axios.CancelToken.source();
